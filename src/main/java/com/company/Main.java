@@ -1,8 +1,9 @@
 package com.company;
 
+
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
 
         // Java_basics
         // Creates new object from Java_basics class
@@ -16,6 +17,12 @@ public class Main {
         Java_basics javaTC = new Java_basics();
         javaTC.myJavaTryCatch();
         System.out.println(javaTC);
+
+
+        // API Basics
+        Java_basics myAPI = new Java_basics();
+        myAPI.API_basic();
+        System.out.println(myAPI);
         // Java_basics
 
 

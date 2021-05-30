@@ -1,5 +1,6 @@
 package com.company;
 
+
 public class Java_basics {
 
 
@@ -49,4 +50,19 @@ public class Java_basics {
 
     }
 
+    public static void API_basic() throws Exception {
+
+        String url = "https://api.coinbase.com/v2/currencies";
+        System.out.println(url);
+//        URL obj = new URL(url);
+
+
+//    HttpURLConnection con = (HttpURLConnection) obj.openConnection();
+//    con.setTrequestMethod("GET");
+//    con.setRequestProperty("user-Agent", "mozilla/5.0");
+//    System.out.pringln("/nSending 'GET' request URL : " + url);
+    }
 }
+
+
+
