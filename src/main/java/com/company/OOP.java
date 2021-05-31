@@ -16,10 +16,11 @@ public class OOP {
 
     void study() {
 
+        System.out.println("Time to study");
     }
 
     void improving() {
-
+        System.out.println("Time to study");
     }
 
     void resting() {

@@ -29,12 +29,23 @@ public class Main {
 
         // OOP
 
+        // single level inheritance
         OOP oopNotes = new OOP("cory", 31);
         SubOOP totalPowerLevel = new SubOOP("cory", 31);
-        System.out.println(totalPowerLevel.name);
+        totalPowerLevel.increasePowerLevel();
+//        System.out.println(totalPowerLevel.name);
 //        System.out.println(oopNotes.name);
 //        System.out.println(oopNotes.age);
 
+        // multilevel inheritance
+        MultiSubOOP screamLoud = new MultiSubOOP("Cory", 31);
+        screamLoud.Scream();
+        screamLoud.MakeScreamHappenAgain();
+
+        SubOOP powerLevelIncrease = new SubOOP("C", 31);
+        System.out.println(powerLevelIncrease.name);
+        powerLevelIncrease.increasePowerLevel();
+        powerLevelIncrease.increasePowerLevel();
         // OOP
 
     }
