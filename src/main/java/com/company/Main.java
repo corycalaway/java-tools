@@ -27,6 +27,15 @@ public class Main {
 
 
 
+        // OOP
+
+        OOP oopNotes = new OOP("cory", 31);
+        SubOOP totalPowerLevel = new SubOOP("cory", 31);
+        System.out.println(totalPowerLevel.name);
+//        System.out.println(oopNotes.name);
+//        System.out.println(oopNotes.age);
+
+        // OOP
 
     }
 }
