@@ -10,6 +10,7 @@ public class OOP {
 
 
     public OOP(String n, int a) {
+
         name = n;
         age = a;
     }
@@ -23,10 +24,18 @@ public class OOP {
         System.out.println("Time to study");
     }
 
-    void resting() {
 
+    int add(int a,int b){return a+b;}  // 2 arguments
+    int add(int a,int b,int c){return a+b+c;}  //3 arguments
+
+    static int addAnother(int a, int b){return a+b;}  // 2 arguments of int data type
+    static double addAnother(double a, double b){return a+b;}  // 2 arguments of double data type
+
+
+    public void disp()
+    {
+        System.out.println("disp() method of parent class");
     }
-
 
 }
 

@@ -46,7 +46,42 @@ public class Main {
         System.out.println(powerLevelIncrease.name);
         powerLevelIncrease.increasePowerLevel();
         powerLevelIncrease.increasePowerLevel();
+
+        // Polymorphism
+        // method overloading
+            OOP TestTheOverload = new OOP ("you", 22);
+            System.out.println(TestTheOverload.add(11,11));
+            System.out.println(TestTheOverload.add(11,11,11));
+
+        System.out.println(TestTheOverload.addAnother(11,11));
+        System.out.println(TestTheOverload.addAnother(12.3,12.6));
+
+        // method overriding
+        OOP methodOverriding = new OOP("you", 22);
+        methodOverriding.disp();
+        // changes the method called to the one of the subclass
+        OOP methodOverriding2 = new SubOOP("you", 22); // Covariance with reference types
+        methodOverriding2.disp();
+
+        // Challenge Rate of interest
+        Bank getSBI = new SBI();
+        Bank getICICI = new ICICI();
+        Bank getAXIS = new AXIS();
+        getSBI.getRateOfInterest();
+        getICICI.getRateOfInterest();
+        getAXIS.getRateOfInterest();
+
+        // Challenge Rate of interest bike
+
+        Bike getSBIBike = new SBIBike();
+        Bike getPNBBike = new PNBBike();
+
+        getSBIBike.getRateOfBikeInterest();
+        getPNBBike.getRateOfBikeInterest();
+
         // OOP
 
     }
+
+    public static void main(String args){System.out.println("main with String");}
 }

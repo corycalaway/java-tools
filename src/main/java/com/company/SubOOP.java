@@ -13,8 +13,20 @@ public class SubOOP  extends OOP{
 
     }
 
+    void nailedIt() {
+        System.out.println("Called using ths!");
+    }
     void increasePowerLevel() {
         powerLevel = powerLevel + inc;
+        this.nailedIt();
         System.out.println("My power level is now:"+ powerLevel);
     }
+
+    public void disp(){
+        System.out.println("disp() method of Child class");
+    }
+    public void newMethod(){
+        System.out.println("new method of child class");
+    }
+
 }
